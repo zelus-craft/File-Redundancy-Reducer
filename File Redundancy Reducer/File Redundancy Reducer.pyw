@@ -40,13 +40,11 @@ class UniquePathnames(object):
     def set_pathnames(self, value):
         self._unique_pathnames = value
         for callback in self._observers:
-            #print 'uniques changed'
             callback(self._unique_pathnames)
 
     unique_pathnames = property(get_pathnames, set_pathnames)
 
     def bind_to(self, callback):
-        #print 'bound'
         self._observers.append(callback)
 
 # Allows for on-change signals for the duplicate files detected.
@@ -61,13 +59,11 @@ class DuplicatePathnames(object):
     def set_pathnames(self, value):
         self._duplicate_pathnames = value
         for callback in self._observers:
-            #print 'duplicates changed'
             callback(self._duplicate_pathnames)
 
     duplicate_pathnames = property(get_pathnames, set_pathnames)
 
     def bind_to(self, callback):
-        #print 'bound'
         self._observers.append(callback)
 
 uniques_data = UniquePathnames()
@@ -341,13 +337,13 @@ class FrrFrame(wx.Frame):
             "File Redundancy Reducer (FRR) is a program used to help reduce the number of redundantly saved files on a computer."
             
             "\n\nIn general, there is a time consuming problem with downloading files from the internet: downloaded files are not easily "
-            "destinguishable by their default filenames or thumbnails, so they are often manually categorized and organized. "
+            "distinguishable by their default filenames or thumbnails, so they are often manually categorized and organized. "
             "\n\nFRR is a tool which helps make this process easier by listing which files have been saved redundantly and "
             "can be discarded safely. The main benefit for doing this is to help save hard drive space and time of users "
             "who are tired of manually sorting through images and deleting duplicates.\n\n", 
             350, wx.ClientDC(self))
 
-        info.WebSite = ("https://github.com/zelus-craft/File-Redundancy-Reducer", "Source Availible on Github")
+        info.WebSite = ("https://github.com/zelus-craft/File-Redundancy-Reducer", "Source Available on Github")
         wx.AboutBox(info)
 
     def OnExit(self, e):
@@ -364,7 +360,7 @@ class FrrFrame(wx.Frame):
             "Quick Tutorial",
             wx.OK)
         dlg.ShowModal() # Show the tutorial.
-        dlg.Destroy() # Destory the tutorial when closed.
+        dlg.Destroy() # Destroy the tutorial when closed.
 
 app = wx.App(False)
 frame = FrrFrame(None, 'File Redundancy Reducer')
