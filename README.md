@@ -14,6 +14,7 @@ FRR is a tool which helps make this categorization and organization process easi
 Download/Installation
 ------------
 
-You can clone this repository and run the .pyw, or run the portable .exe version (Windows).
+The portable Windows version of the program is available right here, on Github: 
+<a href="https://github.com/zelus-craft/File-Redundancy-Reducer/raw/master/File%20Redundancy%20Reducer/File%20Redundancy%20Reducer%20Windows%20(exe).zip">Download</a>
 
-Looking for a nice, safe place to host a Windows installer and Mac dmg right now...
+Otherwise, clone this repository and run the .pyw, or unzip the .exe version (Windows).
