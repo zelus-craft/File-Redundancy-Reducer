@@ -15,7 +15,7 @@ How to Use
 ------------
 1. Drag and Drop files/folders into the left pane to load them. Selecting files/folders through the Browse option works too.
 2. The right panes will automatically update with the loaded files, listing which loaded files are unique and which are duplicates.
-3. Click the 'Delete All Duplicate Files Found' button to delete the duplicates listed.
+3. Click the 'Delete All Duplicate Files Found' button to delete the duplicates listed. (Files are deleted after confirmation; files do not go to the Trash/Recycle)
 4. Click the 'Reset Files Loaded' button to reset the detected unique and duplicate files, which resets the program.
 
 Download/Installation
@@ -28,4 +28,4 @@ Otherwise, clone this repository and run the .pyw, or unzip the .exe version (Wi
 
 Errata
 ------------
-File pathnames with some Jōyō kanji, Chinese, and Korean characters may not be loaded properly. Thanks UTF... :C
+File pathnames with some Jōyō kanji, Chinese, and Korean characters may not be loaded properly.
