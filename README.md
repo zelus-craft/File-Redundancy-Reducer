@@ -11,6 +11,11 @@ or thumbnails, so they are often manually categorized and organized.
 
 FRR is a tool which helps make this categorization and organization process easier by listing which files have been saved redundantly and can be discarded safely.
 
+Screenshot
+-----------
+
+![](https://raw.github.com/zelus-craft/File-Redundancy-Reducer/master/File%20Redundancy%20Reducer/test/Demo%20Screenshot.png)
+
 How to Use
 ------------
 1. Drag and Drop files/folders into the left pane to load them. Selecting files/folders through the Browse option works too.
